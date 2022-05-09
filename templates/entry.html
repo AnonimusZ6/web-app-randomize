@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ titles }}</h2>
+
+<form method="POST" action="/res">
+    <table>
+        <p>Enter a number</p>
+            <input name="numbers" type="text" width="75">
+    </table>
+    <p><input value="Click" type="submit"></p>
+</form>
+
+{% endblock %}
