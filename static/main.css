@@ -9,13 +9,6 @@ body {
     padding:          10px 10px 10px 10px;
   }
 
-
-  a:hover {
-    text-decoration:  underline;
-  }
-  a img {
-    border:           0;
-  }
   h2 {
     font-size:        150%;
   }
@@ -24,21 +17,6 @@ body {
     margin-right:     20px;
     caption-side:     bottom;
     border-collapse:  collapse;
-  }
-  td, th {
-    padding:          5px;
-    text-align:       left;
-  }
-  .copyright {
-    font-size:        75%;
-    font-style:       italic;
-  }
-  .slogan {
-    font-size:        75%;
-    font-style:       italic;
-  }
-  .confirmentry {
-    font-weight:      600; 
   }
   
 table {
