@@ -18,6 +18,7 @@ def res() -> 'html':
     return render_template('results.html',
     numbb = numberss,
     resultss = randd(numberss))
- 
 
-web_app.run(debug=True)
+
+if __name__ == "__main__":
+    web_app.run(debug=True)
